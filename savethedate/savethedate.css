@@ -1,0 +1,82 @@
+body {
+	background: #5180C4 url(../img/orang077.jpg) repeat;
+	height: 100%
+
+}
+
+header {
+	color: white;
+}
+
+img {
+	position: relative;
+	width: 100%
+}
+
+video {
+	padding-top: 12px;
+	position: relative;
+	width: 100%;
+	height: auto;
+}
+
+main {
+	display: block;
+	padding-left: 50px;
+	padding-right: 50px;
+    max-width: 654px;
+    min-width: 360px;
+    margin-left: auto;
+    margin-right: auto;	
+    margin-bottom: auto;
+	background: #5180C4;
+	height: 100%
+}
+
+p {
+	color: white;
+	font-size: 14px;
+}
+
+weather {
+	height: 48px;
+	display: block;margin-left: auto;margin-right: auto;	
+}
+
+p thanks {
+	color: white;
+	font-size: 12px;
+	display: block;margin-left: auto;margin-right: auto;	
+	text-align: center;
+}
+
+p travel {
+	color: white;
+	font-size: 18px;
+	display: block;margin-left: auto;margin-right: auto;	
+	text-align: center;
+}
+
+a {
+	color: white;
+	-webkit-transition:color .2s ease-in; 
+	-moz-transition:color .2s ease-in;  
+	-o-transition:color .2s ease-in;  
+	transition:color .2s ease-in;  
+}
+a:visited {
+	color: white;
+	-webkit-transition:color .2s ease-in; 
+	-moz-transition:color .2s ease-in;  
+	-o-transition:color .2s ease-in;  
+	transition:color .2s ease-in;  
+}
+
+a:hover {
+	color: #DF6E5C;
+	-webkit-transition:color .2s ease-in; 
+	-moz-transition:color .2s ease-in;  
+	-o-transition:color .2s ease-in;  
+	transition:color .2s ease-in;  
+	opacity: 1.8;
+}

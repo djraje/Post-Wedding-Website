@@ -24,7 +24,13 @@ footer, header, nav, section, audio, video {
 	display: block;
 }
 
-a img {border: 0;}
+a img {
+	border: 0;
+}
+
+a imglogocenter {
+	border: 0;
+}
 
 
 
@@ -93,6 +99,7 @@ body {
 	width: 852px;	
 	padding-left: 68px;
 }
+
 
 #main{
 	width: 920px;
@@ -174,6 +181,12 @@ px      68    160    252    344    436    528    620    712    */
 		float: none;
 	}
 	
+	#main #contenttemp{
+		width: 480px;
+		float: none;
+		margin-left: 140px;
+	}
+	
 	.shadow-main{
 		width: 760px;
 		height: 11px;
@@ -194,7 +207,7 @@ px      68    160    252    344    436    528    620    712    */
 	/* featured */
 	
 	.featured figure{
-		width: 344px;
+		width: 640px;
 		margin-left: 24px;
 	}
 	
@@ -324,6 +337,13 @@ px      68    160    252    */
 	#main #content{
 		width: 319px;
 		float: none;
+	}
+	
+	#main #contenttemp{
+		width: 320px;
+		float: none;
+		margin-left: 00px;
+
 	}
 	
 	.shadow-main{
@@ -464,6 +484,13 @@ px      68    160    252    344    436    */
 	#main #content{
 		width: 484px;
 		float: none;
+	}
+	
+	#main #contenttemp{
+		width: 484px;
+		float: none;
+		margin-left: 00px;
+
 	}
 	
 	.shadow-main{

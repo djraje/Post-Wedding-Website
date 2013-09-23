@@ -18,8 +18,8 @@
 }
 
 body{
-	background: #ececec url(../img/main-pattern.png);
-	color: #888;
+	background: #ececec url(../img/orang077.jpg);
+	color: #11;
 }
 
 body p{
@@ -42,23 +42,24 @@ body a:hover{
 
 #logo{
 	display: block;
-	padding-top: 97px;
+	padding#logoi-top: 27px;
+	padding-top: 20px;
 	float: left;
 }
 
 #logo:hover{ opacity: 0.8;}
 
 .headline{
-	font-family: Allan, helvetica, arial, sans-serif;
-	font-size: 36px;
+	font-family: "Comic Sans MS", , Helvetica, sans-serif;
+	font-size: 42px;
 	line-height: 1.5em;
 	text-align: center;
-	padding: 20px 0px;
-	border-top: 1px solid rgba(0, 0, 0, 0.1);
-	border-bottom: 1px solid rgba(255, 255, 255, 1);
+	padding: 0px 0px;
+	border-top: 0px solid rgba(0, 0, 0, 0.1);
+	border-bottom: 0px solid rgba(255, 255, 255, 1);
 	margin-bottom: 50px;
-	background: #eaeaea;
-	color: #444;
+	background: #5180c4;
+	color: #ea8843;
 }
 
 
@@ -82,8 +83,8 @@ body a:hover{
 	color: #444;
 	padding-bottom: 20px;
 	margin-left: 24px;
-	margin-right: 24px;
-	margin-bottom: 32px;
+	margin-right: 12px;
+	margin-bottom: 12px;
 }
 
 .h-heading{
@@ -127,7 +128,7 @@ body a:hover{
 }
 
 #masthead .head{
-	font-family: Allan, helvetica, arial, sans-serif;
+	font-family:  helvetica, arial, sans-serif;
 	font-size: 21px;
 	color: #ddd;
 }
@@ -170,8 +171,8 @@ body a:hover{
 /* HEADINGS ------------------------------------------------------------*/
 
 h1, h2, h3, h4, h5, h6{
-	font-family: Allan, helvetica, arial, sans-serif;
-	color: #444;
+	font-family:  helvetica, arial, sans-serif;
+	color: #FFFFFF;
 }
 
 h1{ font-size: 36px; }
@@ -196,8 +197,8 @@ h1.heading, h2.heading, h3.heading, h4.heading, h5.heading, h6.heading{
 
 header{
 	position: relative;
-	height: 225px;
-	background: url(../img/header.png)  repeat-x center center;
+	height: 150px;
+	background: #5180C4 ;
 	display: block;
 }
 
@@ -216,7 +217,7 @@ nav a{
 }
 
 #nav{
-	margin-top: 97px;
+	margin-top: 50px;
 }
 
 #nav li{
@@ -245,12 +246,12 @@ nav a{
 #nav>li.current_page_item>a{
 	background: #303232;
 	background: rgba(0,0,0,.2);
-	border-bottom: solid #1c1d1d 5px;
+	border-bottom: solid #df6e5c 5px;
 }
 
 #nav>li.current-menu-item>a,
 #nav>li.current_page_item>a{
-	color: #fe8300;
+	color: #df6e5c;
 }
 
 #nav>li>a>.subheader{
@@ -403,17 +404,36 @@ nav a{
 /* MAIN ------------------------------------------------------------*/
 
 #main{
-		
+
 }
 
 #main #content{
+	margin-top: -38px;	
 	position: relative;
 	display: block;
-	width: 852px;
+	width: 848px;
 	float: left;
+	border: 1px solid #DF6E5C;
+	position:relative; 
+	background: #5180c4;
 	
-	background: #f5f5f5;
+	-webkit-box-shadow: 0px 0px 4px rgba(0,0,0,.1); 
+	-moz-box-shadow: 0px 0px 4px rgba(0,0,0,.1); 
+	box-shadow: 0px 0px 4px rgba(0,0,0,.1);
 	
+}
+
+#main #contenttemp{
+	margin-top: -38px;	
+	position: relative;
+	display: block;
+	width: 580px;
+	float: left;
+	border: 1px solid #DF6E5C;
+	position:relative; 
+	background: #5180c4;
+	margin-left: 170px;
+
 	-webkit-box-shadow: 0px 0px 4px rgba(0,0,0,.1); 
 	-moz-box-shadow: 0px 0px 4px rgba(0,0,0,.1); 
 	box-shadow: 0px 0px 4px rgba(0,0,0,.1);
@@ -453,12 +473,18 @@ nav a{
 
 /* FEATURED ------------------------------------------------------------*/
 
-.featured{ padding-bottom: 70px; }
+.featured{ padding-bottom: 00px; }
+
+.featured figure .excerpt{
+	margin-bottom: 21px;
+	color: white;
+	font-style: italic;
+}
 
 .featured figure{
 	position: relative;
 	float: left;
-	width: 252px;
+	width: 640px;
 	margin-left: 24px;
 	margin-bottom: 21px;
 }
@@ -488,6 +514,19 @@ nav a{
 	-moz-transition: all 0.3s ease;
 	-o-transition: all 0.3s ease;
 	transition: all 0.3s ease;
+}
+
+.featured figure video{
+	max-width: 100%;
+	height: auto;
+	position: relative;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;	
 }
 
 .featured figure .heading{
@@ -750,7 +789,8 @@ aside.retractil #sidebar-content a:hover{
 
 .home-gallery{ 
 	display: block;
-	padding-bottom: 70px;
+	padding-top: 24px;
+	padding-bottom: 24px;
 }
 
 .home-gallery li{ 
@@ -787,14 +827,14 @@ aside.retractil #sidebar-content a:hover{
 
 .text-posts{
 	overflow: hidden;
-	padding-bottom: 70px;
+	padding-bottom: 0px;
 }
 
 .text-posts li{
 	display: block;
 	float: left;
 	margin-left: 24px;
-	margin-bottom: 21px;
+	margin-bottom: 10px;
 	width: 252px;
 }
 
@@ -817,7 +857,7 @@ aside.retractil #sidebar-content a:hover{
 
 /* BLOG ------------------------------------------------------------*/
 
-#posts-list,
+#posts-list,featured,
 #post-content{
 	width: 528px;
 	float: left;
@@ -831,8 +871,11 @@ aside.retractil #sidebar-content a:hover{
 }
 
 #posts-list article{
-	margin-bottom: 80px;
+	margin-bottom: 40px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #ccc;
 }
+
 
 
 #posts-list .feature-image,
@@ -846,15 +889,186 @@ aside.retractil #sidebar-content a:hover{
 #posts-list .feature-image img,
 #post-content .feature-image img{
 	max-width: 100%;
-	-webkit-transition: all 0.3s ease;
-	-moz-transition: all 0.3s ease;
-	-o-transition: all 0.3s ease;
-	transition: all 0.3s ease;
+	-webkit-transition: all 0.6s ease;
+	-moz-transition: all 0.6s ease;
+	-o-transition: all 0.6s ease;
+	transition: all 0.6s ease;
 }
 
 #posts-list .feature-image:hover img,
 #posts-content .feature-image:hover img{
 	opacity: 0.2;
+}
+
+#posts-list .royal-image,
+#post-content .royal-image{
+	width: 100%;
+	margin-bottom: 21px;
+	background: url(../img/travel/royal2.jpg) center center no-repeat;
+	line-height: 0em;
+}
+
+#posts-list .royal-image img,
+#post-content .royal-image img{
+	max-width: 100%;
+	-webkit-transition: all 0.6s ease;
+	-moz-transition: all 0.6s ease;
+	-o-transition: all 0.6s ease;
+	transition: all 0.6s ease;
+}
+
+#posts-list .royal-image:hover img,
+#posts-content .royal-image:hover img{
+	opacity: 0.1;
+}
+
+#posts-list .wed-image,
+#post-content .wed-image{
+	width: 100%;
+	margin-bottom: 21px;
+	background: url(../img/submitpics/dc19.jpg) center center no-repeat;
+	line-height: 0em;
+}
+
+#posts-list .wed-image img,
+#post-content .wed-image img{
+	max-width: 100%;
+	-webkit-transition: all 1.2s ease;
+	-moz-transition: all 1.2s ease;
+	-o-transition: all 1.2s ease;
+	transition: all 1.2s ease;
+}
+
+#posts-list .wed-image:hover img,
+#posts-content .wed-image:hover img{
+	opacity: 0.1;
+}
+
+#posts-list .amazon-image,
+#post-content .amazon-image{
+	width: 100%;
+	margin-bottom: 21px;
+	line-height: 0em;
+}
+
+#posts-list .amazon-image img,
+#post-content .amazon-image img{
+	max-width: 100%;
+	-webkit-transition: all 0.6s ease;
+	-moz-transition: all 0.6s ease;
+	-o-transition: all 0.6s ease;
+	transition: all 0.6s ease;
+}
+
+
+#posts-list .sheraton-image,
+#post-content .sheraton-image{
+	width: 100%;
+	margin-bottom: 21px;
+	background: url(../img/travel/sheraton2.jpg) center center no-repeat;
+	line-height: 0em;
+}
+
+#posts-list .sheraton-image img,
+#post-content .sheraton-image img{
+	max-width: 100%;
+	-webkit-transition: all 0.6s ease;
+	-moz-transition: all 0.6s ease;
+	-o-transition: all 0.6s ease;
+	transition: all 0.6s ease;
+}
+
+#posts-list .sheraton-image:hover img,
+#posts-content .sheraton-image:hover img{
+	opacity: 0.1;
+}
+
+#posts-list .rumfire-image,
+#post-content .rumfire-image{
+	width: 100%;
+	margin-bottom: 21px;
+	background: url(../img/events/logo_rumfire.jpg) center center no-repeat;
+	line-height: 0em;
+}
+
+#posts-list .rumfire-image img,
+#post-content .rumfire-image img{
+	max-width: 100%;
+	-webkit-transition: all 0.6s ease;
+	-moz-transition: all 0.6s ease;
+	-o-transition: all 0.6s ease;
+	transition: all 0.6s ease;
+}
+
+#posts-list .rumfire-image:hover img,
+#posts-content .rumfire-image:hover img{
+	opacity: 0.25;
+}
+
+#posts-list .mendhi-image,
+#post-content .rumfire-image{
+	width: 100%;
+	margin-bottom: 21px;
+	background: url(../img/events/mendhi_hands.jpg) center center no-repeat;
+	line-height: 0em;
+}
+
+#posts-list .mendhi-image img,
+#post-content .mendhi-image img{
+	max-width: 100%;
+	-webkit-transition: all 0.6s ease;
+	-moz-transition: all 0.6s ease;
+	-o-transition: all 0.6s ease;
+	transition: all 0.6s ease;
+}
+
+#posts-list .mendhi-image:hover img,
+#posts-content .mendhi-image:hover img{
+	opacity: 0.5;
+}
+
+#posts-list .ceremony-image,
+#post-content .ceremony-image{
+	width: 100%;
+	margin-bottom: 21px;
+	background: url(../img/events/mandap.jpg) center center no-repeat;
+	line-height: 0em;
+}
+
+#posts-list .ceremony-image img,
+#post-content .ceremony-image img{
+	max-width: 100%;
+	-webkit-transition: all 0.6s ease;
+	-moz-transition: all 0.6s ease;
+	-o-transition: all 0.6s ease;
+	transition: all 0.6s ease;
+}
+
+#posts-list .ceremony-image:hover img,
+#posts-content .ceremony-image:hover img{
+	opacity: 0.15;
+}
+
+#posts-list .reception-image,
+#post-content .reception-image{
+	width: 100%;
+	margin-bottom: 21px;
+	background: url(../img/events/rh_night.jpg) center center no-repeat;
+	line-height: 0em;
+}
+
+#posts-list .reception-image img,
+#post-content .reception-image img{
+	max-width: 100%;
+	-webkit-transition: all 0.6s ease;
+	-moz-transition: all 0.6s ease;
+	-o-transition: all 0.6s ease;
+	transition: all 0.6s ease;
+}
+
+#posts-list .reception-image:hover img,
+#posts-content .reception-image:hover img{
+	opacity: 0.0;
 }
 
 #posts-list .post-heading,
@@ -876,11 +1090,11 @@ aside.retractil #sidebar-content a:hover{
 
 #posts-list .meta,
 #post-content .meta{
-	border-bottom: 1px solid #ccc;
 	margin-bottom: 11px;
 	padding-bottom: 11px;
+	font-size: 12px;
 	font-style: italic;
-	font-size: 11px;
+	colo;
 }
 
 #posts-list .meta a,
@@ -901,6 +1115,8 @@ aside.retractil #sidebar-content a:hover{
 
 #posts-list .excerpt{
 	margin-bottom: 21px;
+	color: white;
+	font-style: italic;
 }
 
 #posts-list .read-more{
@@ -922,6 +1138,26 @@ aside.retractil #sidebar-content a:hover{
 #posts-list .read-more:hover{
 	color: #fff;
 	background: #fe8300;
+}
+#posts-list .read-more-inactive{
+	background: #eaeaea;
+	padding: 5px 10px;
+	text-decoration: none;
+	color: #888;
+	border: 1px solid #ccc;
+	-webkit-box-shadow: 0px 0px 2px rgba(0,0,0,.3); 
+	-moz-box-shadow: 0px 0px 2px rgba(0,0,0,.3); 
+	box-shadow: 0px 0px 2px rgba(0,0,0,.3); 
+	
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+#posts-list .read-more-inactive:hover{
+	color: #eaeaea;
+	background: #eaeaea;
 }
 
 /* SIDEBAR ------------------------------------------------------------*/
@@ -948,6 +1184,7 @@ aside.retractil #sidebar-content a:hover{
 
 #sidebar h4{
 	margin-bottom: 10px;
+	color: #DF6E5C;
 }
 
 #sidebar .block{
@@ -1143,5 +1380,24 @@ footer #to-top:hover{ opacity: 0.7 }
 	color: #888888;
 }
 
+/* CUSTOM ADDITIONS ------------------------------------------------------------*/
+
+header-image {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header-image img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+travel-intro {
+	color: white;
+	font-style: italic;
+	text-align: justify;
+}
 
 

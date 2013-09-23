@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+	<script type="text/javascript">
+		var mobile = function(){
+			return {
+				detect:function(){
+					var uagent = navigator.userAgent.toLowerCase(); 
+					var list = this.mobiles;
+					var ismobile = false;
+					for(var d=0;d<list.length;d+=1){
+						if(uagent.indexOf(list[d])!=-1){
+							ismobile = true;
+						}
+					}
+					return ismobile;
+				},
+				mobiles:[
+					"midp","240x320","blackberry","netfront","nokia","panasonic",
+					"portalmmm","sharp","sie-","sonyericsson","symbian",
+					"windows ce","benq","mda","mot-","opera mini",
+					"philips","pocket pc","sagem","samsung","sda",
+					"sgh-","vodafone","xda","palm","iphone",
+					"ipod","android"
+				]
+			};
+		}();
+		
+		if(mobile.detect()){
+		}
+		
+	</script>	
+	<head>
+		<meta charset="utf-8"/>
+		<title>Gitika and Rajeev are getting Married</title>
+		<link rel="stylesheet" media="all" href="savethedate.css"/>
+	</head>
+	<body>
+		<!-- "Video For Everybody" http://camendesign.com/code/video_for_everybody -->
+		<main>
+			<img src="img/logo_wed.png"/>
+
+			<!-- "Video For Everybody" http://camendesign.com/code/video_for_everybody -->
+			<video controls="controls" poster="http://falcon-street.com/gitraje/savethedate/savethedate_thumbnail.jpg" width="654" height="360" >
+				<source src="http://falcon-street.com/gitraje/savethedate/vid/savethedate.m4v" type="video/mp4" />
+				<source src="http://falcon-street.com/gitraje/savethedate/vid/savethedate.webm" type="video/webm" />
+				<source src="http://falcon-street.com/gitraje/savethedate/vid/savethedate.ogv" type="video/ogg" />
+				<object type="application/x-shockwave-flash" data="http://releases.flowplayer.org/swf/flowplayer-3.2.1.swf" width="654" height="360">
+					<param name="movie" value="http://releases.flowplayer.org/swf/flowplayer-3.2.1.swf" />
+					<param name="allowFullScreen" value="true" />
+					<param name="wmode" value="transparent" />
+					<param name="flashVars" value="config={'playlist':['http%3A%2F%2Ffalcon-street.com%2Fgitraje%2Fsavethedate%2Fsavethedate_thumbnail.jpg',{'url':'http%3A%2F%2Ffalcon-street.com%2Fgitraje%2Fsavethedate%2Fvid%2Fsavethedate.m4v','autoPlay':false}]}" />
+					<img alt="Save The Date" src="http://falcon-street.com/gitraje/savethedate/savethedate_thumbnail.jpg" width="654" height="360" title="No video playback capabilities, please download the video below" />
+				</object>
+			</video>
+			
+			<p>
+			</p>
+			
+			<a href="../travel.html"><img src="img/clickherefortravel.png"></a>
+			<br><BR>
+			<div style='width: 120px; height: 60px; background-image: url( http://vortex.accuweather.com/adcbin/netweather_v2/backgrounds/rainbow_120x60_bg.jpg ); background-repeat: no-repeat; background-color: #;	display: block;margin-left: auto;margin-right: auto;' >
+				<weather>
+					<script src='http://netweather.accuweather.com/adcbin/netweather_v2/netweatherV2ex.asp?partner=netweather&tStyle=normal&logo=0&zipcode=96815&lang=eng&size=7&theme=rainbow&metric=0&target=_self'></script>
+				</weather>
+				<div style='text-align: center; font-family: arial, helvetica, verdana, sans-serif; font-size: 10px; line-height: 12px; color: #;' >
+					<a style='color: #' href='http://www.accuweather.com/us/hi/honolulu/96815/city-weather-forecast.asp?partner=netweather' >Weather Forecast</a>
+				</div>
+			</div>
+			<p><thanks>Big thanks to our friend Chris Jolly for creating this video for us!</thanks></p>
+
+		</main>
+		
+	</body>
+</html>
