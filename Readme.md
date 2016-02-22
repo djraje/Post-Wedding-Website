@@ -1,7 +1,7 @@
 # GitRaje Wedding Website
   
   
-##Source code to gitraje.us  
+##Source code to <http://gitraje.us>  
 
 
 ###The following files will help you see the site at different states of the site's existence
